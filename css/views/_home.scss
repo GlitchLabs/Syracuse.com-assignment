@@ -1,0 +1,28 @@
+h1{
+    @include buildFont(Ariel,40px,limegreen)
+}
+h2{
+    //@include buildFont(Georgia,30px,orange)
+}
+header{
+    //@include buildFont(Roboto,30px,pink)
+}
+
+main{
+   // @include buildFont(Georgia,30px,rgb(240, 3, 240))
+}
+.showcase{
+background-color:black;
+color:white;
+    .primary{
+    background-color:purple;
+    min-height:50px;
+}
+}
+.trending{
+background-color: rgb(248, 245, 245);
+color:firebrick;
+}
+footer{
+    @include buildFont(Ariel,35px,rgb(239, 255, 11))
+}

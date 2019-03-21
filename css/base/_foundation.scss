@@ -1,0 +1,34 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+//mobile
+body{
+    background-color:orangered;
+}
+.container{
+    width:100%; 
+    // auto means auto distrubute the left over space in the horizontal
+}
+//end of mobile
+// this is what is used to customised for specific devices:phone tablet
+//tablet
+@media all and (min-width:700px){
+    body{
+        background-color: rgb(24, 97, 2);
+        .container{
+            width:96%;
+            margin: 0 auto;
+        }
+    }
+}
+//tablet
+//desktop
+@media all and (min-width:1000px){
+    body{
+        background-color: rgb(39, 10, 143);
+    }
+    .container{
+        width:1000px;
+    }
+}//desktop
